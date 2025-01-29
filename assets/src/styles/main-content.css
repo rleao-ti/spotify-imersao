@@ -3,6 +3,7 @@
     height: 100vh;
     margin-left: 320px;
     margin-right: 56px;
+    padding: 2px;
 }
 
 .header__navigation {
@@ -12,7 +13,7 @@
     padding: 16px;
     margin: 10px;
     border-radius: 8px;
-    background-color: #121212;
+    background-color: #36123f;
     padding: 12px;
 }
 
@@ -33,8 +34,8 @@
     justify-content: center;
     width: 32px;
     height: 32px;
-    background: var(--bg-icon);
-    background-color: var(--bg-arrow-color);
+    background: #fff;
+    background-color: rgba(0, 0, 0, 07);
     border-radius: 50%;
     border: none;
     cursor: pointer;
@@ -51,7 +52,7 @@
     width: 364px;
     height: 48px;
     margin-left: 8px;
-    background-color: #242424;
+    background-color: #000;
     border-radius: 500px;
     border: 1px solid transparent;
 }
@@ -74,10 +75,11 @@
 }
 
 .header__login .subscribe {
-    color: #a7a7a7;
+    color: #fff;
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
+    border: none;
     margin-right: 32px;
 }
 
@@ -88,4 +90,30 @@
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
+}
+
+.playlist-container {
+    height: 68vh;
+    padding-top: 16px;
+    border-radius: 10px;
+    background-color: #36123f;
+}
+
+.playlists {
+    margin: 24px;
+}
+
+.playlists #greeting {
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.playlists .greeting-subtitle {
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
 }
