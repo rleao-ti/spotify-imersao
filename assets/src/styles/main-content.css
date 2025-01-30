@@ -6,7 +6,7 @@
     padding: 2px;
 }
 
-.header__navigation {
+.header_navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,13 +17,13 @@
     padding: 12px;
 }
 
-.header__navigation .navigation {
+.header_navigation .navigation {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.header__navigation .navigation .arrow-left {
+.header_navigation .navigation .arrow-left {
     margin-right: 1.25rem;
 }
 
